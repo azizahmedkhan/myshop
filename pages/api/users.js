@@ -1,4 +1,3 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import { getUsers } from "@/lib/db-admin"
 import {auth, firestore} from '@/lib/firebase-admin';
 

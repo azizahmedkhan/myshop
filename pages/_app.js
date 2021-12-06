@@ -5,7 +5,7 @@ import { ChakraProvider } from "@chakra-ui/react"
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ChakraProvider>  
+    <ChakraProvider resetCSS>  
       <AuthProvider>
       <Component {...pageProps} />
     </AuthProvider>
